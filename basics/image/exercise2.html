@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .google-image{
+                display: block;
+                margin : 0 auto;
+            }
+
+            .google-search{
+                width : 400px;
+                height : 40px;
+                border-radius : 20px;
+                border : none;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+                transition :  box-shadow , 0.15s;
+                display: block;
+                margin : 0 auto;
+                margin-top: 20px;
+            }
+
+            .linkedin-fName{
+                width : 100px;
+                height :35px;
+                padding-left : 10px;
+                border-radius : 5px;
+                border-color : grey;
+                border-style : solid;
+                border-width : 1px;
+                color : rgb(107, 106, 106);
+                font-family: Arial, Helvetica, sans-serif;
+                font-size : 15px;
+            }
+
+            .linkedin-lName{
+                width : 100px;
+                height :35px;
+                padding-left : 10px;
+                border-radius : 5px;
+                border-color : grey;
+                border-style : solid;
+                border-width : 1px;
+                color : rgb(107, 106, 106);
+                font-family: Arial, Helvetica, sans-serif;
+                font-size : 15px;
+            }
+
+            .email{
+                display: block;
+                margin-top: 12px;
+                margin-bottom : 8px;
+                height :33px;
+                width : 220px;
+                border-color : grey;
+                border-style : solid;
+                border-width : 1px;
+                color : rgb(107, 106, 106);
+                font-family: Arial, Helvetica, sans-serif;
+                font-size : 15px;
+                padding-left : 10px;
+                border-radius : 5px;
+            }
+
+            .signup{
+               
+                background-color: rgb(10, 102, 194);
+                border : none;
+                height : 45px;
+                width : 220px;
+                font-size : 15px;
+                color : white;
+                font-weight : bold;
+                border-radius : 5px;
+                cursor : pointer;
+                margin : 6px;
+                transition: background-color , 0.15s;
+            
+            }
+
+            .signup:hover{
+                background-color:rgb(7, 80, 152) ;
+            }
+
+
+            .Uber-title{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size : 30px;
+                font-weight : bold;
+            }
+
+            .uber-pickup{
+                background-color: rgb(235, 229, 229);
+                height : 30px;
+                width : 300px;
+                display: block;
+                border-style : solid;  
+                border-width : 1px;
+                color : rgb(101, 99, 99);
+                border-radius : 5px;
+                border : none;
+                padding : 5px;
+                margin-bottom : 8px;
+            }
+            .uber-destination{
+                background-color: rgb(235, 229, 229);
+                height : 30px;
+                width : 300px;
+                display: block;
+                border-style : solid;  
+                border-width : 1px;
+                color : rgb(101, 99, 99);
+                border-radius : 5px;
+                border : none;
+                padding : 5px;
+                margin-bottom : 8px;
+            }
+
+            .Uber{
+                background-color: black;
+                color : white;
+                border: none;
+                height: 35px;
+                width : 120px;
+                font-weight : bold;
+                cursor : pointer;
+                margin : 8px;
+                transition : opacity , 0.15s;
+                margin-left : 0px;
+                margin-top : 20px;
+            }
+        
+            .Uber:hover{
+                opacity : 0.9; 
+            }
+
+            .sched{
+                background-color: rgb(235, 229, 229);
+                color : black;
+                border: none;
+                height: 35px;
+                width : 170px;
+                font-weight : bold;
+                cursor : pointer;
+                margin : 8px;
+                vertical-align: middle;
+                transition: background-color , 0.15s;
+            }
+
+            .sched:hover{
+                background-color: rgb(164, 162, 162);
+            }
+        </style>  
+        <title> Google search</title> 
+    </head>
+
+
+    <body>
+        <div class >
+        <img class = "google-image" src = "Google_2015_logo.svg.png">
+        <input class = "google-search" type = "textbox" placeholder="Search Google or type a url">
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <input class = "linkedin-fName" type = "textbox" placeholder="First Name">
+        <input class = "linkedin-lName" type = "textbox" placeholder="Last Name">
+        <input class = "email" type = "textbox" placeholder="Email">
+        <button class = "signup">Sign Up</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p class = "Uber-title">
+            Request to ride now
+        </p>
+        <input class = "uber-pickup" type = "textbox" placeholder="Enter pickup location">
+        <input class = "uber-destination" type = "textbox" placeholder="Enter destination">
+        <button class = "Uber">Request now</button>
+        <button class = "sched">Schedule for later</button>
+    </body>
+</html>    

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>practice 1</title>
+        <style>
+            p{
+                font-family : Arial, Helvetica, sans-serif;
+            }
+
+            .first-question{
+                position : fixed;
+                top : 0px;
+                right : 20px;
+                bottom : 0px;
+                width : 100px;
+                background-color: green;
+                color : white;
+            }
+
+            .second-question{
+                position : fixed;
+                top : 600px;
+                left : 20px;
+                bottom : 20px;
+                width : 80px;
+                background-color: black;
+                color : white;
+            }
+
+            .overlay {
+                background-color: rgba(0, 0, 0, 0.5);
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                }
+
+            .modal {
+                background-color: white;
+                width: 300px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border-radius: 5px;
+            }
+
+            .modal-title {
+                font-family: Arial;
+                font-weight: bold;
+                font-size: 24px;
+                margin-bottom: 12px;
+            }
+
+            .modal-content {
+                font-family: Arial;
+                margin-bottom: 12px;
+            }
+
+
+        </style>
+    </head>
+    <body style = "height : 3000px;
+    background-color: rgba(0, 0, 0, 0.8);">
+        <div class = "main-part">
+            <div class = "first-question">
+                right-sidebar
+            </div>
+    
+            <div class = "second-question">
+                bottom-left
+            </div>
+        </div>
+
+   <div class = "overlay">
+    <div class = "modal">
+        <div class = "modal-title">
+            Modal Title
+        </div>
+        <div class ="modal-content">
+            This is a modal
+        </div>
+        <button>
+            close
+        </button>
+    </div>
+   </div>
+      
+    </body>
+</html>

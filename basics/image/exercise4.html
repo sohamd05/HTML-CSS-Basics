@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 4</title>
+        
+        <style>
+            .image{
+                width : 40px;
+                height : 40px;
+                object-fit : cover;
+                object-position : center;
+                border-radius : 20px;
+                vertical-align : middle;
+            }
+
+            .tweeter-search{
+                width : 200px;
+                height : 40px;
+                border-radius : 15px;
+                border : none;
+                vertical-align: middle;
+                font-size : 15px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .tweet{
+                background-color: rgb(2, 158, 255);
+                color : white;
+                border : none;
+                padding-top:10px;
+                padding-bottom : 10px; 
+                padding-left : 16px;
+                padding-right : 16px; 
+                border-radius : 35px;
+                text-align : center;
+                font-size : 15px;
+                font-weight : bold;
+                cursor : pointer;
+                transition: box-shadow , 0.15s;
+                vertical-align : top;
+            }
+        
+            .tweet:hover{
+                box-shadow : 5px 5px 10px rgba(0, 0, 0, 0.15);
+            }
+
+            .border{
+                width: 350px;
+                height: 40px;
+                border: 1px solid black;
+                padding: 10px;
+                border-radius : 5px;
+                border-color : rgb(147, 145, 145);
+            }
+
+
+            .oliver{
+                height : 200px;
+                width : 100px;
+                border : none;
+                padding: 10px;
+                border-radius : 5px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+                display: inline-block;
+            }
+
+            .oliver-hover{
+                box-shadow : 0px 0px 10px rgba(10, 5, 5, 0.15);
+            }
+
+            .oliver-image{
+                height : 100px;
+                width : 98px;
+                object-fit :cover;
+                display : inline-block;
+            }
+
+            .oliver-para{
+                font-size : 15px;
+                font-weight : bold;
+                font-family : Arial, Helvetica, sans-serif;
+                margin-top: 4px;
+                margin-bottom: 5px;
+            }
+
+            .oliver-mutual{
+                font-family : Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                margin-top:0px;
+                color : rgb(118, 116, 116);
+            }
+
+            .add-friend{
+                background-color: rgb(2, 158, 255);
+                color : white;
+                font-size : 13px;
+                height : 30px;
+                width : 100px;
+                border : none;
+                text-align : center;
+                font-weight : bold;
+                cursor : pointer;
+                transition: box-shadow , 0.15s;
+                vertical-align : top;  
+            }
+
+            .add-friend:hover{
+                box-shadow : 5px 5px 10px rgba(0, 0, 0, 0.15);
+            }
+        </style> 
+         
+    </head>
+
+    <body>
+        <div class = "border">
+        <img class = "image" src = "Reshot-example-image.webp">
+        <input class = "tweeter-search" type = "textbox" placeholder="What's happening?" >
+        <button class = "tweet">Tweet</button>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class = "oliver">
+            <img class = "oliver-image" src = "Reshot-example-image.webp">
+            <p class = "oliver-para">Oliver</p>
+            <p class = "oliver-mutual">2 mutual friends</p>
+            <button class ="add-friend">Add Friend</button>
+            
+        </div>
+
+        <div class = "oliver">
+            <img class = "oliver-image" src = "newone2.jpg">
+            <p class = "oliver-para">Mami</p>
+            <p class = "oliver-mutual">3 mutual friends</p>
+            <button class ="add-friend">Add Friend</button>
+        </div>
+
+        <div class = "oliver">
+            <img class = "oliver-image" src = "newone.jpg">
+            <p class = "oliver-para">Rex</p>
+            <p class = "oliver-mutual">4 mutual friends</p>
+            <button class ="add-friend">Add Friend</button>
+        </div>
+    </body>    
+</html>

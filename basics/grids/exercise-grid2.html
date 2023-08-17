@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>exercise 2</title>
+        <style>
+            p{
+            font-family: Arial;
+            }
+
+            .grid{
+                display : grid;
+                grid-template-columns: 155px 155px 155px;
+                column-gap : 20px;
+            }
+            .oliver{
+                height : 241px;
+                width : 140px;
+                border : none;
+                padding: 10px;
+                border-radius : 5px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+            }
+
+            .oliver-image{
+                height : 138px;
+                width : 138px;
+                object-fit :cover;
+               
+            }
+
+            .oliver-para{
+                font-size : 15px;
+                font-weight : bold;
+                font-family : Arial, Helvetica, sans-serif;
+                margin-left: 8px;
+                margin-bottom: 0px;
+                margin-top : 8px;
+            }
+
+            .mutual-image{
+                width : 25px;
+                height : 25px;
+                border-radius : 25px;
+                object-fit : cover;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+            .mutual-friends-row {
+            display: grid;
+            grid-template-columns: 35px 1fr;
+            align-items: center;
+            margin-left: 8px;
+            margin-bottom: 0px;
+            }
+
+            .oliver-mutual{
+                font-family : Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                margin-top:0px;
+                color : rgb(118, 116, 116);
+                align-items : center;
+                margin-top : 10px;
+            }
+
+            .add-friend{
+                background-color: rgb(2, 158, 255);
+                color : white;
+                font-size : 13px;
+                height : 30px;
+                width : 100px;
+                border : none;
+                text-align : center;
+                font-weight : bold;
+                cursor : pointer;
+                transition: box-shadow , 0.15s;
+                align-items : center;
+                margin-left: 8px;  
+            }
+
+            .add-friend:hover{
+                box-shadow : 5px 5px 10px rgba(0, 0, 0, 0.15);
+            }
+        </style>
+    </head>
+    <body>
+      <div class = "grid">
+        <div class = "oliver">
+            <img class = "oliver-image" src = "Reshot-example-image.webp">
+            <p class = "oliver-para">Oliver</p>
+            <div class = "mutual-friends-row">
+                <img class = "mutual-image" src = "istockphoto-184289722-2048x2048.webp">
+            <p class = "oliver-mutual">2 mutual friends</p>
+            </div>
+            <button class ="add-friend">Add Friend</button>
+            
+        </div>
+
+        <div class = "oliver">
+            <img class = "oliver-image" src = "newone2.jpg">
+            <p class = "oliver-para">Mami</p>
+            <div class = "mutual-friends-row">
+                <img class = "mutual-image" src = "istockphoto-184289722-2048x2048.webp">
+            <p class = "oliver-mutual">2 mutual friends</p>
+            </div>
+            <button class ="add-friend">Add Friend</button>
+        </div>
+
+        <div class = "oliver">
+            <img class = "oliver-image" src = "newone.jpg">
+            <p class = "oliver-para">Rex</p>
+            <div class = "mutual-friends-row">
+                <img class = "mutual-image" src = "istockphoto-184289722-2048x2048.webp">
+            <p class = "oliver-mutual">2 mutual friends</p>
+            </div>
+            <button class ="add-friend">Add Friend</button>
+        </div>
+      </div>
+    </body>
+</html>

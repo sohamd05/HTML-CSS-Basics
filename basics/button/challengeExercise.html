@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+<style>
+    .cart{
+        background-color: rgb(255, 216, 20);
+        
+        font-size : 15px;
+        font-weight : bold;
+        height : 40px;
+        width : 150px;
+        border-radius : 20px;
+        border : none; 
+        cursor : pointer;
+        margin : 8px;
+        transition : opacity , 0.15s;
+        transition : background-color , 0.15s;
+    }
+
+    .cart:hover{
+        background-color: rgb(255, 200, 20);
+    }
+
+    .cart:active{
+        opacity : 0.7;
+    }
+
+    .buy{
+        background-color: rgb(255, 164, 28);
+        border : none;
+        height : 40px;
+        width : 150px;
+        border-radius : 20px;
+        font-size : 15px;
+        font-weight : bold;
+        cursor : pointer;
+        transition : background-color , 0.15s;
+        transition: opacity , 0.15s;
+    }
+
+    .buy:hover{
+        background-color :rgb(243, 147, 4);
+    }
+    .buy:active{
+        opacity : 0.7;
+    }
+    
+    .link:hover{
+        color : rgb(193, 125, 22);
+    }
+</style> 
+
+</head>
+
+<body>
+
+<a class="link" href = "https://www.amazon.com/" target = "blank"> Back To Amazon</a>
+<p style = "font-size: 30px;"> <b>Nike Black Running Shoes</b></p> 
+<p style = "font-size: medium;color : rgb(0, 118, 0); font-weight : bold" > $39 - in stock.</p>
+ <p style = "font-size : 15px; font-weight : bold ; font-style: inherit;">Free Delivery Tommorrow  </p>    
+<button class = "cart">Add to Cart</button>
+<button class = "buy">Buy now</button>
+</body>
+</html>

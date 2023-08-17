@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>exercise 2</title>
+        <style>
+            .oliver{
+                height : 230px;
+                width : 140px;
+                border : none;
+                padding: 10px;
+                border-radius : 5px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+                display: inline-block;
+            }
+
+            .oliver-image{
+                height : 138px;
+                width : 138px;
+                object-fit :cover;
+                display : inline-block;
+            }
+
+            .oliver-para{
+                font-size : 15px;
+                font-weight : bold;
+                font-family : Arial, Helvetica, sans-serif;
+                margin-top: 4px;
+                margin-bottom: 5px;
+            }
+
+            .mutual-image{
+                width : 25px;
+                height : 25px;
+                border-radius : 25px;
+                object-fit : cover;
+                display: inline-block;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+
+            .oliver-mutual{
+                font-family : Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                margin-top:0px;
+                color : rgb(118, 116, 116);
+                display : inline-block;
+                margin-top : 0px;
+                vertical-align: middle;
+            }
+
+            .add-friend{
+                background-color: rgb(2, 158, 255);
+                color : white;
+                font-size : 13px;
+                height : 30px;
+                width : 100px;
+                border : none;
+                text-align : center;
+                font-weight : bold;
+                cursor : pointer;
+                transition: box-shadow , 0.15s;
+                vertical-align : top;  
+            }
+
+            .add-friend:hover{
+                box-shadow : 5px 5px 10px rgba(0, 0, 0, 0.15);
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "oliver">
+            <img class = "oliver-image" src = "Reshot-example-image.webp">
+            <p class = "oliver-para">Oliver</p>
+            <img class = "mutual-image" src = "istockphoto-184289722-2048x2048.webp">
+            <p class = "oliver-mutual">2 mutual friends</p>
+            <button class ="add-friend">Add Friend</button>
+            
+        </div>
+
+        <div class = "oliver">
+            <img class = "oliver-image" src = "newone2.jpg">
+            <p class = "oliver-para">Mami</p>
+            <img class = "mutual-image" src = "istockphoto-184289722-2048x2048.webp">
+            <p class = "oliver-mutual">3 mutual friends</p>
+            <button class ="add-friend">Add Friend</button>
+        </div>
+
+        <div class = "oliver">
+            <img class = "oliver-image" src = "newone.jpg">
+            <p class = "oliver-para">Rex</p>
+            <img class = "mutual-image" src = "istockphoto-184289722-2048x2048.webp">   
+            <p class = "oliver-mutual">4 mutual friends</p>
+            <button class ="add-friend">Add Friend</button>
+        </div>
+    </body>
+</html>
